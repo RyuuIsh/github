@@ -13,7 +13,16 @@ ls
 clear
 git status
 git restore testing.py
+
 git remote add origin https://github.com/RyuuIsh/github.git
 git remote -v
 git remote set-url origin https://PersonalAccessToken@github.com/RyuuIsh/github.git
 git push origin master
+
+mkdir git-demo
+cd git-demo
+clear
+ls
+git clone https://github.com/RyuuIsh/github.git
+
+these are some new changes
